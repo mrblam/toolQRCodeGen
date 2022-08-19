@@ -3,7 +3,7 @@
 
 #include <QMainWindow>
 #include <QPainter>
-#include <qrencode.h>
+//#include <qrencode.h>
 #include <QDebug>
 #include <QGraphicsScene>
 #include "qrcodegen.h"

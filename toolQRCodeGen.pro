@@ -20,7 +20,6 @@ HEADERS += \
 FORMS += \
     mainwindow.ui
 
-LIBS += -lqrencode
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
