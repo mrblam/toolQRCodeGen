@@ -6,47 +6,97 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>898</width>
-    <height>695</height>
+    <width>831</width>
+    <height>424</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLabel" name="labelQRCode">
-    <property name="geometry">
-     <rect>
-      <x>300</x>
-      <y>150</y>
-      <width>161</width>
-      <height>271</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
    <widget class="QGraphicsView" name="graphicsView">
     <property name="geometry">
      <rect>
-      <x>90</x>
+      <x>370</x>
       <y>20</y>
-      <width>721</width>
-      <height>621</height>
+      <width>411</width>
+      <height>351</height>
      </rect>
     </property>
    </widget>
-  </widget>
-  <widget class="QMenuBar" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>898</width>
-     <height>22</height>
-    </rect>
-   </property>
+   <widget class="QLabel" name="Modul">
+    <property name="geometry">
+     <rect>
+      <x>22</x>
+      <y>62</y>
+      <width>44</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Modul</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>22</x>
+      <y>95</y>
+      <width>36</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>From</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>22</x>
+      <y>128</y>
+      <width>17</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>To</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>250</y>
+      <width>89</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>GenCode</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>60</y>
+      <width>144</width>
+      <height>89</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLineEdit" name="headerQR"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="from"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="to"/>
+     </item>
+    </layout>
+   </widget>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
